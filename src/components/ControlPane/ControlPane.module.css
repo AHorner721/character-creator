@@ -10,6 +10,8 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+  /* applying control width */
+  width: 50%;
 }
 
 .title {

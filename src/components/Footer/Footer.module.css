@@ -6,3 +6,19 @@
   text-align: center;
 }
 
+.footer a,
+.footer a:visited {
+  color: white;
+}
+
+/* adding perspective decoration */
+footer::before {
+  position: absolute;
+  content: " ";
+  background-color: hsl(195deg, 20%, 86%);
+  height: 55vh;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}

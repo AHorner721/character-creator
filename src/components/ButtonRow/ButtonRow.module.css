@@ -1,2 +1,12 @@
 .buttonRow {
+  /* setting horizontal scroll */
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+/* Could not get scroll thumb to look like mockup 
+   with this applied on microsoft edge or chrome
+*/
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
 }
